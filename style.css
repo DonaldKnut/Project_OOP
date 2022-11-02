@@ -1,0 +1,111 @@
+*{
+    color: white;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+body{
+    background: url(./images/js_image.jpg) center/cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    background-color: #000000;
+    padding: 15px;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    background: #cfac00;
+}
+
+
+#main-header{
+    text-align: center;
+    background: #5a460bee;
+    padding: 26px;
+    margin-bottom: 11px;
+}
+
+ul{
+    padding: 11px 22px;
+    margin-bottom: 11px;
+    overflow: scroll;
+    border: 2px solid rgb(97, 87, 2);
+}
+
+.int-list_item{
+    height: 205px;
+}
+
+
+.sec-list_item{
+    height: 105px;
+}
+
+
+li{
+    list-style: none;
+    padding: 22px;
+    height: 96px;
+    border-radius: 12px;
+    background-color: rgb(168, 139, 6);
+    margin-bottom: 11px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 7px 14px;
+    background: #000000;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: all 0.6s ease-out
+}
+
+
+button:hover{
+    padding: 7px 14px;
+    background: #cfac00;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid #5a460b;
+    cursor: pointer;
+}
+
+.droppable{
+    background-color: #f7dd5e;
+}
+
+.btn-wrapper{
+    text-align: center;
+}
+
+.tooltip{
+    background-color: #000000;
+    width: 90%;
+    border: 1px solid white;
+    margin: auto;
+    height: 20px;
+    padding: 6px;
+}
+
+.createBtn{
+    background-color: #5c315c;
+    padding: 11px;
+    color: white;
+}
+
+.box{
+    width: 266px;
+    margin: 0 auto;
+    height: 193px;
+    border: 11px solid #000000;
+    overflow: scroll;
+    padding: 12px;
+}

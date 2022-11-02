@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Board</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="lodash.js" defer></script> -->
+    <script src="./src/app.js" defer type="module"></script>
+</head>
+<body>
+    <template id="toolsTip">
+            <h2>More Info</h2>
+            <p>this text says something</p>
+    </template>
+    <header id="main-header">
+        <h1>Project Board</h1>
+    </header>
+    <section id="finished-projects">
+        <header>
+            <h2>Active Projects</h2>
+        </header>
+        <ul class="int-list_item">
+                <li id="p1" class="card" data-extra-info="Got lifetime access, but would be nice" draggable="true">
+                    <h3>Finish the Course</h3>
+                    <p>Finish the course between the next two weeks.</p>
+                    <button class="alt">More Info</button>
+                    <button>Finish</button>
+                </li>
+                <li id="p2" class="card" data-extra-info="Not really a business topic but still important" draggable="true">
+                    <h3>Buy Groceries</h3>
+                    <p>Don't forget to pick up groceries today.</p>
+                    <button class="alt">More Info</button>
+                    <button>Finish</button>
+                </li>
+        </ul>
+    </section>
+    <section id="active-projects">
+        <header>
+            <h2>Finished Projects</h2>
+        </header>
+        <ul class="sec-list_item">
+            <li id="p3" class="card" data-extra-info="Super important conference! Fictional but still!" draggable="true">
+                <h3 class="header-text">Book Hotel</h3>
+                <p>Philia's conference takes place in december, don't forget to book a hotel</p>
+                <button class="alt">More Info</button>
+                <button>Activate</button>
+            </li>
+        </ul>
+    </section>
+    <div class="btn-wrapper">
+        <button id="btnCreate">stop analytics</button>
+    </div>
+</body>
+</html>
